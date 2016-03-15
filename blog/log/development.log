@@ -1,0 +1,3938 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:22:43 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (24.0ms)
+Completed 200 OK in 265ms (Views: 224.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:10 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 25ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:12 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:14 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:15 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:18 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:20 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:25:27 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-10 12:26:26 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11386ms (Views: 11386.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:26:37 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:30:11 -0500
+
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (229.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (559.1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:30:17 -0500
+
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.8) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:31:17 -0500
+
+AbstractController::ActionNotFound (The action 'new' could not be found for ArticlesController):
+  actionpack (4.1.8) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (3.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:31:48 -0500
+Processing by ArticlesController#new as HTML
+Completed 500 Internal Server Error in 15ms
+
+ActionView::MissingTemplate (Missing template articles/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "c:/Sites/blog/app/views"
+  * "c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/foundation-rails-5.4.5.0/app/views"
+):
+  actionview (4.1.8) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.8) lib/action_view/lookup_context.rb:124:in `find'
+  c:in `find_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.8) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.8) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.8) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (1.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:32:56 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1331ms (Views: 1330.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:32:57 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:32:57 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:32:57 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:32:58 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:34:16 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (195.0ms)
+Completed 200 OK in 429ms (Views: 427.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:34:17 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:35:08 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:35:23 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 1", "text"=>"Test for article 1"}, "commit"=>"Save Article"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (52.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (36.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateArticles (20160310173558)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "text" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160310173558"]]
+  [1m[35m (55.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 326ms (Views: 313.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:40:45 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:40:56 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 1", "text"=>"test test test"}, "commit"=>"Save Article"}
+Completed 500 Internal Server Error in 7ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/articles_controller.rb:7:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (301.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 139ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:42:55 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 1", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Save Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (16.0ms)[0m  [1mINSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2016-03-10 17:43:17.090772"], ["text", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."], ["title", "Article 1"], ["updated_at", "2016-03-10 17:43:17.090772"]]
+  [1m[35m (47.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 105ms (ActiveRecord: 64.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 146ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:43:17 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 142ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:44:42 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 164ms (Views: 163.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:53 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 193ms (Views: 193.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:55 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 12:46:56 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 156ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:56 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:46:57 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 157ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:26 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 176ms (Views: 174.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:27 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:47:28 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 147ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:49 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:57:58 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Save Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 163ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:57:59 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Save Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 146ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:01 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Save Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered articles/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 150ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:43 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 12:58:48 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"sda", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Save Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered articles/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 150ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 12:58:49 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 2", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Save Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2016-03-10 18:01:23.461506"], ["text", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."], ["title", "Article 2"], ["updated_at", "2016-03-10 18:01:23.461506"]]
+  [1m[35m (53.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/2
+Completed 302 Found in 66ms (ActiveRecord: 54.0ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 150ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:23 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 146ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:01:30 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 147ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:04:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20160310180507)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "commenter" varchar(255), "body" text, "article_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mCREATE  INDEX "index_comments_on_article_id" ON "comments" ("article_id")[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160310180507"]]
+  [1m[36m (37.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_article_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_article_id' AND type='index'
+[0m
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2016-03-10 13:18:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  Rendered articles/show.html.erb within layouts/application (281.0ms)
+Completed 200 OK in 750ms (Views: 676.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:18:01 -0500
+
+
+Started GET "/articles/" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 145ms (Views: 141.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:24:13 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:24:15 -0500
+Processing by ArticlesController#new as HTML
+Filter chain halted as #<Proc:0x6760860@c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:25:14 -0500
+Processing by ArticlesController#new as HTML
+Filter chain halted as #<Proc:0x6760860@c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:25:21 -0500
+Processing by ArticlesController#new as HTML
+Filter chain halted as #<Proc:0x6760860@c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:25:25 -0500
+Processing by ArticlesController#new as HTML
+Filter chain halted as #<Proc:0x6760860@c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 155ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:22 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"nggjsfdngdfmngm,fd", "text"=>" ngnfgmdngm,fdgfd"}, "commit"=>"Create Article"}
+Filter chain halted as #<Proc:0x6760860@c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_controller/metal/http_authentication.rb:71> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"nggjsfdngdfmngm,fd", "text"=>" ngnfgmdngm,fdgfd"}, "commit"=>"Create Article"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2016-03-10 18:26:29.093956"], ["text", " ngnfgmdngm,fdgfd"], ["title", "nggjsfdngdfmngm,fd"], ["updated_at", "2016-03-10 18:26:29.093956"]]
+  [1m[36m (41.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/3
+Completed 302 Found in 47ms (ActiveRecord: 43.0ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (9.0ms)
+  Rendered articles/show.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 172ms (Views: 170.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:29 -0500
+
+
+Started POST "/articles/3/comments" for 127.0.0.1 at 2016-03-10 13:26:34 -0500
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "comment"=>{"commenter"=>"gnfdgnfdmgndf,m", "body"=>"gmkdfgmdflkgm"}, "commit"=>"Create Comment", "article_id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "comments" ("article_id", "body", "commenter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["article_id", 3], ["body", "gmkdfgmdflkgm"], ["commenter", "gnfdgnfdmgndf,m"], ["created_at", "2016-03-10 18:26:34.724519"], ["updated_at", "2016-03-10 18:26:34.724519"]]
+  [1m[36m (57.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/3
+Completed 302 Found in 68ms (ActiveRecord: 59.0ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2016-03-10 13:26:34 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered comments/_form.html.erb (2.0ms)
+  Rendered articles/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:34 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:35 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 149ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:26:38 -0500
+
+
+Started DELETE "/articles/3" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 1]]
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 3]]
+  [1m[35m (61.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 73ms (ActiveRecord: 62.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 148ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:06 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 195ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:07 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 13:31:16 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 3", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2016-03-10 18:31:16.835698"], ["text", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."], ["title", "Article 3"], ["updated_at", "2016-03-10 18:31:16.835698"]]
+  [1m[35m (65.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 71ms (ActiveRecord: 66.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2016-03-10 13:31:16 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?  [["article_id", 4]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (1.0ms)
+  Rendered articles/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 149ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:17 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 197ms (Views: 195.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:20 -0500
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2016-03-10 13:31:21 -0500
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.0ms)
+  Rendered articles/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 141ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:22 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 13:31:27 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 4", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2016-03-10 18:31:27.810698"], ["text", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."], ["title", "Article 4"], ["updated_at", "2016-03-10 18:31:27.810698"]]
+  [1m[35m (79.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 84ms (ActiveRecord: 79.0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2016-03-10 13:31:27 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?  [["article_id", 5]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (1.0ms)
+  Rendered articles/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 150ms (Views: 149.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:28 -0500
+
+
+Started POST "/articles" for 127.0.0.1 at 2016-03-10 13:31:31 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "article"=>{"title"=>"Article 5", "text"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."}, "commit"=>"Create Article"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2016-03-10 18:31:31.951698"], ["text", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque, nibh vel euismod ultrices, erat mauris dapibus massa, sed luctus elit felis id nisl. Aliquam viverra in eros sit amet laoreet. In a mi mi. Sed vel fringilla felis, a lacinia leo. In mattis mauris sed turpis gravida, id hendrerit libero vehicula. Donec feugiat ante sapien, sit amet vehicula diam efficitur a. Aliquam venenatis dui id pretium cursus. Nam ut tortor maximus, iaculis nisl sit amet, accumsan magna. Aliquam diam ex, posuere id lobortis eu, sollicitudin ac lorem. Nullam pellentesque nec leo at scelerisque. Maecenas feugiat aliquet nunc ac semper. Curabitur non pellentesque dui, non ultrices tortor. Maecenas quis eros sit amet sapien tincidunt egestas."], ["title", "Article 5"], ["updated_at", "2016-03-10 18:31:31.951698"]]
+  [1m[36m (455.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/6
+Completed 302 Found in 464ms (ActiveRecord: 457.0ms)
+
+
+Started GET "/articles/6" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (1.0ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?[0m  [["article_id", 6]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (3.0ms)
+  Rendered articles/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 149ms (Views: 145.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:32 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 151ms (Views: 149.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:34 -0500
+
+
+Started GET "/articles/6" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?  [["article_id", 6]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.0ms)
+  Rendered articles/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 156ms (Views: 153.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:36 -0500
+
+
+Started POST "/articles/6/comments" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kS/Rnc31W3bdYMH/O8xNb2hGIAaUx0LjA8ikctaE2xg=", "comment"=>{"commenter"=>"Brandon", "body"=>"Good Job!"}, "commit"=>"Create Comment", "article_id"=>"6"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("article_id", "body", "commenter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["article_id", 6], ["body", "Good Job!"], ["commenter", "Brandon"], ["created_at", "2016-03-10 18:31:46.219698"], ["updated_at", "2016-03-10 18:31:46.219698"]]
+  [1m[35m (83.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/6
+Completed 302 Found in 92ms (ActiveRecord: 84.0ms)
+
+
+Started GET "/articles/6" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = ?  [["article_id", 6]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered comments/_form.html.erb (3.0ms)
+  Rendered articles/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 166ms (Views: 163.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:46 -0500
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-10 13:31:50 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 145ms (Views: 143.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-10 13:31:51 -0500
