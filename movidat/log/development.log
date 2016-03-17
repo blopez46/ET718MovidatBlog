@@ -1,0 +1,1910 @@
+  [1m[36m (52.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (37.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateMovies (20160315175239)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "cast" text, "genre" varchar(255), "length" varchar(255), "url" varchar(255), "year" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160315175239"]]
+  [1m[35m (208.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-17 13:09:36 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 10390ms (Views: 10332.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:09:47 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.0ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 133ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:09:47 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:09:47 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:09:47 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:09:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:09:48 -0400
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-03-17 13:09:51 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (357.0ms)
+  Rendered movies/new.html.erb within layouts/application (403.0ms)
+Completed 200 OK in 550ms (Views: 548.1ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2016-03-17 13:10:36 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"After the Thin man ", "description"=>"", "cast"=>"", "genre"=>"", "length"=>"", "url"=>"http://mdlet718.s3.amazonaws.com/after.m4v", "year"=>""}, "commit"=>"Create Movie"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "movies" ("cast", "created_at", "description", "genre", "length", "title", "updated_at", "url", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["cast", ""], ["created_at", "2016-03-17 17:10:36.446646"], ["description", ""], ["genre", ""], ["length", ""], ["title", "After the Thin man "], ["updated_at", "2016-03-17 17:10:36.446646"], ["url", "http://mdlet718.s3.amazonaws.com/after.m4v"], ["year", ""]]
+  [1m[36m (50.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 131ms (ActiveRecord: 52.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2016-03-17 13:10:36 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 172ms (Views: 168.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/1/edit" for 127.0.0.1 at 2016-03-17 13:16:33 -0400
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (1.0ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered movies/_form.html.erb (5.0ms)
+  Rendered movies/edit.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 149ms (Views: 146.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:16:34 -0400
+
+
+Started PATCH "/movies/1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"After the Thin Man ", "description"=>"Now back in San Francisco after their holiday in New York, Nick and Nora find themselves trying to solve another mystery. It's New Year's Eve and they are summoned to dinner at Nora's elderly, and very aristocratic, family. There they find that cousin Selma's husband Robert has been missing for three days. Nick reluctantly agrees to look for him but the case takes a twist when Robert is shot and Selma is accused of murder. Several other murders occur but eventually Nick gathers everyone into the same room to reveal the identity of the killer.", "cast"=>"William Powell, Myrna Loy, James Stewart", "genre"=>" Comedy, Crime, Mystery ", "length"=>" 1h 52min", "url"=>"http://mdlet718.s3.amazonaws.com/after.m4v", "year"=>" 25 December 1936"}, "commit"=>"Update Movie", "id"=>"1"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "movies" SET "cast" = ?, "description" = ?, "genre" = ?, "length" = ?, "title" = ?, "updated_at" = ?, "year" = ? WHERE "movies"."id" = 1  [["cast", "William Powell, Myrna Loy, James Stewart"], ["description", "Now back in San Francisco after their holiday in New York, Nick and Nora find themselves trying to solve another mystery. It's New Year's Eve and they are summoned to dinner at Nora's elderly, and very aristocratic, family. There they find that cousin Selma's husband Robert has been missing for three days. Nick reluctantly agrees to look for him but the case takes a twist when Robert is shot and Selma is accused of murder. Several other murders occur but eventually Nick gathers everyone into the same room to reveal the identity of the killer."], ["genre", " Comedy, Crime, Mystery "], ["length", " 1h 52min"], ["title", "After the Thin Man "], ["updated_at", "2016-03-17 17:19:52.023198"], ["year", " 25 December 1936"]]
+  [1m[36m (41.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 54ms (ActiveRecord: 44.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.0ms)[0m  SELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 154ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:19:52 -0400
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:20:00 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 175ms (Views: 173.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:00 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:00 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:00 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:01 -0400
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (3.0ms)
+  Rendered movies/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 151ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:08 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:20:09 -0400
+
+
+Started POST "/movies" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"Another Thin Man", "description"=>"In this adaptation of Dashiell Hammett's \"The Farewell Murder\", Nick and Nora (and their dog Asta) visit the estate of Col. MacFay, who is being threatened by a mysterious man wanting revenge for a past injustice. When MacFay is murdered, that man is the obvious suspect- maybe too obvious...", "cast"=>" William Powell, Myrna Loy, Virginia Grey", "genre"=>" Comedy, Mystery, Drama", "length"=>"1h 43min", "url"=>"http://mdlet718.s3.amazonaws.com/ANOTHER_THIN_MAN.m4v", "year"=>" 17 November 1939"}, "commit"=>"Create Movie"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "movies" ("cast", "created_at", "description", "genre", "length", "title", "updated_at", "url", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["cast", " William Powell, Myrna Loy, Virginia Grey"], ["created_at", "2016-03-17 17:23:17.047698"], ["description", "In this adaptation of Dashiell Hammett's \"The Farewell Murder\", Nick and Nora (and their dog Asta) visit the estate of Col. MacFay, who is being threatened by a mysterious man wanting revenge for a past injustice. When MacFay is murdered, that man is the obvious suspect- maybe too obvious..."], ["genre", " Comedy, Mystery, Drama"], ["length", "1h 43min"], ["title", "Another Thin Man"], ["updated_at", "2016-03-17 17:23:17.047698"], ["url", "http://mdlet718.s3.amazonaws.com/ANOTHER_THIN_MAN.m4v"], ["year", " 17 November 1939"]]
+  [1m[35m (310.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies/2
+Completed 302 Found in 320ms (ActiveRecord: 311.0ms)
+
+
+Started GET "/movies/2" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered movies/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 163ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:17 -0400
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 161ms (Views: 159.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:20 -0400
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (4.0ms)
+  Rendered movies/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 151ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:23:27 -0400
+
+
+Started POST "/movies" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"The Thin Man Goes Home", "description"=>"Nick and Nora head to Nick's hometown of Sycamore Springs to spend some time with his parents. His father, a prominent local physician, was always a bit disappointed with Nick's choice of profession in particular and his lifestyle in general. With Nick's arrival however the towns folk, including several of the local criminal element, are convinced that he must be there on a case despite his protestations that he's just there for rest and relaxation. When someone is shot dead on his doorstep however, Nick finds himself working on a case whether he wants to or not.", "cast"=>"William Powell, Myrna Loy, Lucile Watson", "genre"=>" Comedy, Crime, Mystery ", "length"=>" 1h 40min ", "url"=>"http://mdlet718.s3.amazonaws.com/home.m4v", "year"=>"January 1945 (USA)"}, "commit"=>"Create Movie"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "movies" ("cast", "created_at", "description", "genre", "length", "title", "updated_at", "url", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["cast", "William Powell, Myrna Loy, Lucile Watson"], ["created_at", "2016-03-17 17:25:40.433035"], ["description", "Nick and Nora head to Nick's hometown of Sycamore Springs to spend some time with his parents. His father, a prominent local physician, was always a bit disappointed with Nick's choice of profession in particular and his lifestyle in general. With Nick's arrival however the towns folk, including several of the local criminal element, are convinced that he must be there on a case despite his protestations that he's just there for rest and relaxation. When someone is shot dead on his doorstep however, Nick finds himself working on a case whether he wants to or not."], ["genre", " Comedy, Crime, Mystery "], ["length", " 1h 40min "], ["title", "The Thin Man Goes Home"], ["updated_at", "2016-03-17 17:25:40.433035"], ["url", "http://mdlet718.s3.amazonaws.com/home.m4v"], ["year", "January 1945 (USA)"]]
+  [1m[36m (54.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 62ms (ActiveRecord: 56.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered movies/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 183ms (Views: 179.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:40 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:41 -0400
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 190ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:44 -0400
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (5.0ms)
+  Rendered movies/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 151ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:48 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:49 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:49 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:49 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:25:49 -0400
+
+
+Started POST "/movies" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"Shadow of the Thin Man ", "description"=>"Nick and Nora's hopes for a pleasant afternoon at the local race track are dashed when a jockey is found shot dead in the locker room. Nick's friend Lt. Abrams wants him to help out but Nick is enjoying the good life too much to get involved. However, he is subsequently approached by Major Scully to look into corruption and the role of organized crime in gambling. Others are killed but in the end, Nick gathers all of the suspects into a room and identifies the killer.", "cast"=>"Comedy, Romance, Drama ", "genre"=>"", "length"=>"1h 37min", "url"=>"http://mdlet718.s3.amazonaws.com/SHADOW_OF_THE_THIN_MAN.m4v", "year"=>" November 1941 (USA)"}, "commit"=>"Create Movie"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "movies" ("cast", "created_at", "description", "genre", "length", "title", "updated_at", "url", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["cast", "Comedy, Romance, Drama "], ["created_at", "2016-03-17 17:26:54.027394"], ["description", "Nick and Nora's hopes for a pleasant afternoon at the local race track are dashed when a jockey is found shot dead in the locker room. Nick's friend Lt. Abrams wants him to help out but Nick is enjoying the good life too much to get involved. However, he is subsequently approached by Major Scully to look into corruption and the role of organized crime in gambling. Others are killed but in the end, Nick gathers all of the suspects into a room and identifies the killer."], ["genre", ""], ["length", "1h 37min"], ["title", "Shadow of the Thin Man "], ["updated_at", "2016-03-17 17:26:54.027394"], ["url", "http://mdlet718.s3.amazonaws.com/SHADOW_OF_THE_THIN_MAN.m4v"], ["year", " November 1941 (USA)"]]
+  [1m[35m (76.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies/4
+Completed 302 Found in 81ms (ActiveRecord: 77.0ms)
+
+
+Started GET "/movies/4" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 157ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:54 -0400
+
+
+Started GET "/movies/4/edit" for 127.0.0.1 at 2016-03-17 13:26:55 -0400
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered movies/_form.html.erb (5.0ms)
+  Rendered movies/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 188ms (Views: 185.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:26:56 -0400
+
+
+Started PATCH "/movies/4" for 127.0.0.1 at 2016-03-17 13:27:13 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"Shadow of the Thin Man ", "description"=>"Nick and Nora's hopes for a pleasant afternoon at the local race track are dashed when a jockey is found shot dead in the locker room. Nick's friend Lt. Abrams wants him to help out but Nick is enjoying the good life too much to get involved. However, he is subsequently approached by Major Scully to look into corruption and the role of organized crime in gambling. Others are killed but in the end, Nick gathers all of the suspects into a room and identifies the killer.", "cast"=>" William Powell, Myrna Loy, Barry Nelson", "genre"=>"Comedy, Romance, Drama ", "length"=>"1h 37min", "url"=>"http://mdlet718.s3.amazonaws.com/SHADOW_OF_THE_THIN_MAN.m4v", "year"=>" November 1941 (USA)"}, "commit"=>"Update Movie", "id"=>"4"}
+  [1m[36mMovie Load (1.0ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "movies" SET "cast" = ?, "genre" = ?, "updated_at" = ? WHERE "movies"."id" = 4[0m  [["cast", " William Powell, Myrna Loy, Barry Nelson"], ["genre", "Comedy, Romance, Drama "], ["updated_at", "2016-03-17 17:27:13.497341"]]
+  [1m[35m (342.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies/4
+Completed 302 Found in 351ms (ActiveRecord: 344.0ms)
+
+
+Started GET "/movies/4" for 127.0.0.1 at 2016-03-17 13:27:13 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered movies/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 149ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:14 -0400
+
+
+Started GET "/movies/4/edit" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.0ms)[0m  SELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered movies/_form.html.erb (4.0ms)
+  Rendered movies/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 152ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:18 -0400
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 152ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:22 -0400
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (6.0ms)
+  Rendered movies/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 184ms (Views: 183.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:44 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:45 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:27:45 -0400
+
+
+Started POST "/movies" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4qtKhf4w1M7OesGEpQXyrxjnH0HS+J3lRvCD7wMv0g=", "movie"=>{"title"=>"Song of the Thin Man", "description"=>"Nick and Nora Charles are asked by Phil Brant and Janet Thayar, who have just eloped, to help them after band leader Tommy Drake is killed at a society dance which Nick and Nora also attended. The police are looking to arrest Brant for the murder and while he claims he's innocent, Nick isn't too keen on having him in the house and turns him over to the police. As they look into the case, Nick and Nora learn that Drake wasn't very well liked and there are actually several people who benefited from his death. Drake owed money to loan shark Al Amboy, and Janet's father disliked Brant and may have set him up. Drake's girlfriend may have been having a fling with clarinetist Buddy Hollis, and he and Drake had a fist fight on stage during the festivities. Nick arranges for another party on the same boat where Nora notices something quite peculiar about one of the guest's jewelry.", "cast"=>" William Powell, Myrna Loy, Keenan Wynn", "genre"=>" Comedy, Crime, Drama", "length"=>"1h 26min ", "url"=>"http://mdlet718.s3.amazonaws.com/song.m4v", "year"=>"September 1947 (USA)"}, "commit"=>"Create Movie"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "movies" ("cast", "created_at", "description", "genre", "length", "title", "updated_at", "url", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["cast", " William Powell, Myrna Loy, Keenan Wynn"], ["created_at", "2016-03-17 17:28:51.635154"], ["description", "Nick and Nora Charles are asked by Phil Brant and Janet Thayar, who have just eloped, to help them after band leader Tommy Drake is killed at a society dance which Nick and Nora also attended. The police are looking to arrest Brant for the murder and while he claims he's innocent, Nick isn't too keen on having him in the house and turns him over to the police. As they look into the case, Nick and Nora learn that Drake wasn't very well liked and there are actually several people who benefited from his death. Drake owed money to loan shark Al Amboy, and Janet's father disliked Brant and may have set him up. Drake's girlfriend may have been having a fling with clarinetist Buddy Hollis, and he and Drake had a fist fight on stage during the festivities. Nick arranges for another party on the same boat where Nora notices something quite peculiar about one of the guest's jewelry."], ["genre", " Comedy, Crime, Drama"], ["length", "1h 26min "], ["title", "Song of the Thin Man"], ["updated_at", "2016-03-17 17:28:51.635154"], ["url", "http://mdlet718.s3.amazonaws.com/song.m4v"], ["year", "September 1947 (USA)"]]
+  [1m[35m (36.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies/5
+Completed 302 Found in 44ms (ActiveRecord: 37.0ms)
+
+
+Started GET "/movies/5" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMovie Load (1.0ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 165ms (Views: 162.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:51 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:52 -0400
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:28:56 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 150ms (Views: 149.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:28:57 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 172ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:30:57 -0400
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 163ms (Views: 161.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-17 13:31:07 -0400
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-03-17 13:31:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (27.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.0ms)
